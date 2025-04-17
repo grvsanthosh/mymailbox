@@ -1,0 +1,1 @@
+import{u as e,j as r,B as s,T as a}from"./index-BTRPPEHV.js";function t(){const o=e();return console.log(o),r.jsx(s,{style:{marginLeft:250},children:r.jsx(a,{variant:"h4",children:"There was an error loading this page"})})}export{t as default};
