@@ -1,6 +1,6 @@
 # mymailbox application
 
-An mymailbox application built with Vite, React.js for the frontend, and Node.js, Express, and MongoDB for the backend.
+An mymailbox application built with Vite, React.js for the frontend, and Node.js, Express, and MongoDB for the backend.I have used SMTP Mail transfer third party integration to send mail to real time mail address.
 
 ## Features
 
