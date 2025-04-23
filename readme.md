@@ -1,18 +1,20 @@
-"# mymailbox application" 
+# mymailbox application
 
-Front End Technologies:
+An mymailbox application built with Vite, React.js for the frontend, and Node.js, Express, and MongoDB for the backend.
 
-    1. SMTP integration.
-    2. MUI framework for styling.
-    3. Axios for API request.
-    4. React router dom for app routes.
+## Features
 
-Back End Technologies:
+- SMTP integration.
+- MUI framework for styling.
+- Able to Perform operations - starred, compose mail, save draft while closing compose mail, move mails to bin, & permanently remove from bin.
+- Axios for API request.
+- React router dom for app routes.
 
-    1. Express framework for handling, routing - API request 
-    2. Mongoose for db validation
+### Product Routes
 
-Usage : 
-
-    1. Draft mail with to: santhosheminent@gmail.com
-    2. Perform operations - starred, compose mail, save draft while closing compose mail, move mails to bin, & permanently remove from bin.
+- **POST** `/save` - Save sent mail
+- **POST** `/save-drafts` - Save draft mail
+- **POST** `/bin` - Move mail to bin
+- **POST** `/starred` - Star mails
+- **GET** `/emails/:type` - Fetch mails 
+- **DELETE** `/delete` - Delete mail permanently
